@@ -1,10 +1,11 @@
 #! / bin/ bash
 #! / bin/ bash
 #!/bin/bash
+#this is a great script
 sum=0
-for i in $@ 
+for arg in $@ 
 do
-    sum=$((i + sum))
+    sum=$((arg + sum))
 done
 echo $sum "WOW!"
 
